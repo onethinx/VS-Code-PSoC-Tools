@@ -49,4 +49,5 @@ This guide will help you adding better integration of the VS Code extensions on 
       }
       ```
     4. Save the settings.
-
+    5. Edit launch.json ( project folder >> .vscode folder >> launch.json) and update (or add) the preLaunchTask to the configuration(s):
+    <br>`"preLaunchTask": "${command:otx.preLaunch}"`
