@@ -22,7 +22,6 @@ exports.execute = async (args) => {
 otxPreLaunch = async (vscode) => {
     var ret = await vscode.commands.executeCommand('cmake.build');
     if (ret == 0) return '';
-    //var ret2 = JSON.stringify(ret);
     vscode.commands.executeCommand('workbench.action.problems.focus', 'CMake/Build');
     vscode.window.showErrorMessage("Your Onethinx code didn't built well...\n\nTry some more :-)", { modal: true });
     return null;
@@ -43,7 +42,5 @@ otxBuild = async (vscode) => {
 
 otxRun = async (vscode) => {
     var ret = await vscode.commands.executeCommand('workbench.action.debug.run');
-    //var ret = await vscode.commands.executeCommand('workbench.action.debug.selectandstart');
-    //vscode.treeView.reveal('Run', {focus: true});
     return ret;
 };
