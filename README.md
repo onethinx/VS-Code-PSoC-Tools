@@ -1,7 +1,7 @@
 # VS-Code-PSoC-Tools
 Better integration of VS Code extensions for use with PSoC / Onethinx module
 
-![](https://github.com/onethinx/VS-Code-PSoC-Tools/raw/main/assets/otxVScodeAdd.png)
+<img src="../main/assets/otxVScodeAdd.png?raw=true" width="295px">
 
 This guide will help you adding better integration of the VS Code extensions on top of the Onethinx VS Code Pack.
 
