@@ -3,14 +3,14 @@ Better integration of VS Code extensions for use with PSoC / Onethinx module
 
 This guide will help you adding better integration of the VS Code extensions on top of the Onethinx VS Code Pack.
 
-- Prerequisites:
+- ## Prerequisites:
   - VS Code
   - The Onethinx VS Code Pack <br>
     https://github.com/onethinx/VSCode_OnethinxPack_Linux
     https://github.com/onethinx/VSCode_OnethinxPack_Windows
     https://github.com/onethinx/VSCode_OnethinxPack_macOS
   
-- Installation:
+- ## Installation:
   1. Add the [Powertools extension](https://marketplace.visualstudio.com/items?itemName=ego-digital.vscode-powertools) to VS Code
   2. Copy the [otxCommand.js file](https://raw.githubusercontent.com/onethinx/VS-Code-PSoC-Tools/main/otxCommands.js?token=AKTYWDTBJYQSPMP4KPLDFO27WT7JU) to the VS Code Pack script folder <br> (usually [volume]/VSCode_OnethinxPack_macOS/config/scripts)
   3. Add the following configuration to the settings.json file:
